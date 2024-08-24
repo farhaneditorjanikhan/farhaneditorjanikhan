@@ -1,22 +1,12 @@
-: Windows - LiteManager
+For Android
 
-on:
-  workflow_dispatch:
+--->Open Browser.. Click on three dots and enable desktop mode
 
-jobs:
-  build:
-    name: Start Building...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
+Now watch video and create RDP
 
-      - name: Connect to LiteManager
-        run: cmd /c show.bat
+âœ“You have to do the same procedure as mentioned in the video for PC till the RDP is created. 
 
-      - name: Time Counter
-        run: cmd /c loop.bat
+
+After Creating RDP
+---> Download "Lite Manager" from Playstore 
+---> Enter Id & Pass and Enjoy RDP
